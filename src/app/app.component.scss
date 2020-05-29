@@ -1,0 +1,38 @@
+/* Aqui al boton que habre el menu le daremos color */
+button{
+    background: #3e61409e;
+}
+
+/* Aqui determinamos la posicion de nuestra barra de navegacion */
+.contenedor-padre {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    
+}
+
+.barra {
+    flex: 0 1 auto;
+    color: rgb(255, 255, 255);
+}
+
+.contenido {
+    flex: 1 1 auto;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+.mat-toolbar{
+background: #242424;
+
+}
+
+element.style {
+    margin-left: 300px;
+}
+
+.mat-drawer-container{
+    background-color: rgba(0, 0, 0, 0.1);
+}
